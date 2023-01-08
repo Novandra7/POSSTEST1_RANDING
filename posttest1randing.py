@@ -1,8 +1,11 @@
+# Nama : Awang Muhammad Novandra Arissaputra
+# Kelas : Sistem Informasi A 2022
+
 import os
 
 def pemisah ():
     for i in range(len(ListKu)):
-        if type (ListKu[i]) == int:
+        if type (ListKu[i]) == int and list:
             listint.append(ListKu[i])
         else:
             listkosong.append(ListKu[i])
@@ -33,5 +36,4 @@ listint = []
 os.system('cls')
 pemisah()
 quicksort(listint, 0, len(listint)-1)
-print("JAWABAN NO 1 =")
-print(listint + listkosong)
+print("Setelah diurutkan : ", listint +  listkosong)
